@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCUMENT</title>
+    <style>
+        body {
+            background-color:#F8F8F8;
+            margin: 25px;
+
+        }
+
+
+        a:hover {
+            color: red;
+        }
+
+        .py {
+            color: brown;
+        }
+
+        #docu {
+            text-align: center;
+            margin-left: 200px;
+            margin-right: 300px;
+        }
+
+        #NUM {
+            margin-top: 100px;
+            background-color: grey;
+            margin-bottom: 50px;
+        }
+        .login{
+            background-color: palegoldenrod;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Documentations</h1>
+    <div id="docu">
+        <ul>
+            <li>java</li>
+            <li class="py">python</li>
+            <li><a href="https://www.w3schools.com/jsrEF/default.asp" target="_blank">javascript</a></li>
+            <li><a href="https://www.php.net/docs.php">php</a></li>
+        </ul>
+    </div>
+
+
+
+    <form>
+        <div class="login">
+            <span style="padding-right: 29px;">Username</span> <input type="text" id="usrname" value="ABCD"
+                required><br><br>
+            <span style="padding-right: 30px;">Password</span> <input type="password" id="pass" value="100"
+                required><br>
+        </div>
+
+
+
+
+        <div id="NUM">
+            <h5>Num1</h5><input type="number" id="n" required>
+
+            <button onclick="func()">Submityy</button>
+            <script>
+                var sum = 0;
+                function func() {
+                    const n = document.getElementById("n").value;
+                    sum = sum + Number(n);
+                    console.log(sum);
+
+
+                }
+            </script>
+
+        </div>
+
+    </form>
+
+    <script>
+
+        const usrname = document.getElementById("usrname").value;
+        const pass = document.getElementById("pass").value;
+
+        console.log(usrname + "Elango");
+        console.log(pass);
+
+
+
+
+    </script>
+
+</body>
+
+</html>
