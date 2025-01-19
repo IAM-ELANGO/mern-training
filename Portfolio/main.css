@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: black;
+}
+
+.taskbar{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    justify-content: flex-end;
+    margin-top: 5vh;
+    margin-right: 10vw;
+
+
+}
+.main-down{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 90vh;
+    background-color: black;
+}
+.main-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 50vw;
+}
+.main-img{
+    
+    width: 50vw;
+    
+
+
+}
+.image-{
+    height: 50vh;
+
+
+}
