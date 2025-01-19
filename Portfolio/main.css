@@ -30,14 +30,12 @@ body{
     width: 50vw;
 }
 .main-img{
-    
+    display: flex;
+    flex-direction: column;
     width: 50vw;
+    align-items: center;
+    justify-content: center;
     
-
-
-}
-.image-{
-    height: 50vh;
 
 
 }
