@@ -1,0 +1,68 @@
+.nav{
+    display: flex;
+    gap: 10vw;
+    justify-content:right;
+    list-style-type:none;
+    
+    
+    
+}
+button{
+    border: 0px;
+    background-color: white;
+    cursor:pointer;
+    font-size: 1.5vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+button:hover{
+    color:grey
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
