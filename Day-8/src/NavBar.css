@@ -6,6 +6,10 @@
     
     
     
+    
+}
+.sec{
+    background-color: grey;
 }
 button{
     border: 0px;
@@ -13,6 +17,7 @@ button{
     cursor:pointer;
     font-size: 1.5vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: grey;
 
 }
 button:hover{
